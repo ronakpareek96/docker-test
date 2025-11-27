@@ -1,6 +1,6 @@
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk
 
-COPY target/demo-doc.jar  /usr/app/
+COPY target/demo-doc.jar /usr/app/demo-doc.jar
 
 WORKDIR /usr/app/
 
